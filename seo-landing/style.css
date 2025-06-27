@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #222;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  background: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero {
+  background: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.services, .about, .testimonials, .footer {
+  padding: 40px 0;
+}
+
+.services .service-item {
+  margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
